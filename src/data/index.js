@@ -1,8 +1,4 @@
-import {
-  algorithms,
-  devnotes,
-  oscs,
-} from "../assets";
+import { algorithms, devnotes, oscs } from "../assets";
 
 export const navLinks = [
   {
@@ -25,45 +21,51 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "MERN Stack Developer",
+    company_name: "I8IS",
+    date: "2024 - Present",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "Developed and launched numerous e-commerce and mobile applications, enhancing business operations and user engagement.",
+      "Engineered full-stack solutions using MongoDB, Express.js, React, and Node.js, delivering scalable and efficient applications.",
+      "Optimized back-end services, resulting in a 40% increase in application speed and a significant reduction in server costs.",
+      "Collaborated with cross-functional teams to implement robust front-end interfaces and back-end APIs.",
+      "Led the development of key features, improving app functionality and boosting client satisfaction ratings.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "React Native Developer Intern",
+    company_name: "HNH Tech and Solution",
+    date: "2023 - 2024",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "Quickly mastered React Native, developing 5 mobile apps within a short timeframe during the internship.",
+      "Contributed to the development of highly responsive mobile applications, accelerating project timelines by 30%.",
+      "Implemented new features and fixed critical bugs, enhancing user experience and app stability.",
+      "Collaborated closely with senior developers to learn best practices and optimize app performance.",
+      "Delivered high-quality code, improving app functionality and driving significant increases in user engagement.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: "Tech QC Editor",
+    company_name: "EPLANET",
+    date: "2021 - 2022",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
+      "Ensured the quality of subtitles by following guidelines specific to platforms like Netflix and Disney.",
+      "Checked subtitle consistency against audio and video to maintain high standards.",
+      "Reviewed and adjusted subtitle positioning, syncing, and duration for accuracy.",
+      "Verified compliance with industry standards and client-specific requirements.",
+      "Performed quality checks to ensure subtitles met linguistic and technical specifications.",
     ],
   },
-  {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
-    details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
-    ],
-  },
+  // {
+  //   title: "Computer Science",
+  //   company_name: "ODU",
+  //   date: "2015 - 2018",
+  //   details: [
+  //     "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
+  //     "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
+  //     "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+  //   ],
+  // },
 ];
 
 const portfolio = [
@@ -88,4 +90,3 @@ const portfolio = [
 ];
 
 export { experiences, portfolio };
-
