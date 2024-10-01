@@ -18,7 +18,7 @@ const Position = () => {
       <div className="absolute inset-0 top-[-30px] sm:top-[-10px] lg:top-0 flex flex-col">
         <div
           className="text first absolute left-1 md:left-2 2xl:left-4 flex"
-          aria-label="Software Developer"
+          aria-label="Software  Developer"
         >
           {produceSpans("REACT Developer", "animate-textRotate1")}
         </div>
